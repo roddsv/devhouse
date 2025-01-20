@@ -37,17 +37,11 @@ Siga os passos abaixo para configurar e rodar a API:
    ```
    yarn install
    ```
-3. **Configure as variáveis de ambiente**
-   Crie um arquivo `<span>.env</span>` na raiz do projeto e configure as variáveis de ambiente conforme o exemplo abaixo:
-   ```
-   PORT=3000
-   MONGO_URI=mongodb://localhost:27017/nome_do_banco
-   ```
-4. **Inicie o servidor**
+3. **Inicie o servidor**
    ```
    yarn dev
    ```
-5. **Acesse a API**
+4. **Acesse a API**
    Por padrão, a API estará rodando em: [http://localhost:3000]()
 
 ## Endpoints Disponíveis
